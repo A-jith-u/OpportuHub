@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
 import { OpportunityCard } from "@/components/OpportunityCard";
 import { FilterBar } from "@/components/FilterBar";
 import { mockOpportunities } from "@/data/opportunities";
@@ -54,6 +55,8 @@ export default function Internships() {
           ))}
         </div>
       </main>
+
+      <Footer />
     </div>
   );
 }

@@ -11,6 +11,7 @@ const navItems = [
   { to: "/tools", label: "AI Tools" },
   { to: "/scholarships", label: "Scholarships" },
   { to: "/events", label: "Events" },
+  { to: "/interviews", label: "Interviews" },
 ];
 
 export function Header() {

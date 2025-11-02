@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
 import { AIToolCard } from "@/components/AIToolCard";
 import { aiTools, aiToolCategories } from "@/data/aiTools";
 import { Input } from "@/components/ui/input";
@@ -79,6 +80,8 @@ export default function Tools() {
           </div>
         )}
       </main>
+
+      <Footer />
     </div>
   );
 }

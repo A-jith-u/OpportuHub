@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
 import { OpportunityCard } from "@/components/OpportunityCard";
 import { FilterBar } from "@/components/FilterBar";
 import { mockOpportunities } from "@/data/opportunities";
@@ -122,14 +123,7 @@ const Index = () => {
         )}
       </main>
 
-      {/* Footer */}
-      <footer className="border-t mt-16 py-8">
-        <div className="container text-center">
-          <p className="text-muted-foreground">
-            Built for students, by students. All opportunities verified and 100% free.
-          </p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 };
